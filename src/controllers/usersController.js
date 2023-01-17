@@ -16,6 +16,10 @@ const usersController = {
 
     userList (req, res) {
         return res.status(200).json(database)
+    },
+
+    userList2 (req, res) {
+        const name = req.params.name;
     }
 }
 
