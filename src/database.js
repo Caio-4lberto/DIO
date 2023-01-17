@@ -1,3 +1,3 @@
-const database = ["Caio"]
+const database = [{name:"Caio"}]
 
 export { database }
