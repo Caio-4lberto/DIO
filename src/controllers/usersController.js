@@ -24,7 +24,7 @@ const usersController = {
     },
 
     saveForm (req, res) {
-        return res.status(200).json({
+        return res.json({
             message: `Bem-Vindo, ${req.query.name} `
         })
     }
