@@ -11,6 +11,8 @@ routes.get('/saveform', usersController.saveForm)
 
 routes.post('/users', usersController.createUser)
 
+routes.get('/', usersController.saveForm2)
+
 export { routes }
 
 /*__________________  METODOS HTTP _________________________

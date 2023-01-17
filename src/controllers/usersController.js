@@ -27,6 +27,12 @@ const usersController = {
         return res.json({
             message: `Bem-Vindo, ${req.query.name} `
         })
+    },
+
+    saveForm2 (req, res) {
+        return res.json({
+            message: `Bem-Vindo`
+        })
     }
 }
 
