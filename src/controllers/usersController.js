@@ -20,6 +20,7 @@ const usersController = {
 
     userList2 (req, res) {
         const name = req.params.name;
+        return res.status(200).json(name)
     }
 }
 
