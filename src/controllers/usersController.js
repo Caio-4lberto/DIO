@@ -21,6 +21,12 @@ const usersController = {
     userList2 (req, res) {
         const name = req.params.name;
         return res.status(200).json(name)
+    },
+
+    saveForm (req, res) {
+        return res.status(200).json({
+            message: `Bem-Vindo, ${req.query.name} `
+        })
     }
 }
 

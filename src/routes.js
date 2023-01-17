@@ -7,6 +7,8 @@ routes.get('/users', usersController.userList)
 
 routes.get('/users/:name', usersController.userList2)
 
+routes.get('/', usersController.saveForm)
+
 routes.post('/users', usersController.createUser)
 
 export { routes }
